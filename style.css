@@ -35,10 +35,14 @@ img {
 
 picture img {
   width: 100%;
+  height: auto;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+  }
+  picture img {
+    width: 100%;
   }
 }
