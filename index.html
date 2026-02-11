@@ -16,15 +16,19 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <picture>
+      <!-- setting the sourcesets for landscape images -->
       <source srcset="
-      images/museum-320x.jpg 320w,
-      images/museum-480.jpg 480w,"
+      images/museum-320x.jpg 1x,
+      images/museum-480x.jpg 2x,
+      images/museum-720x.jpg 3x
+      images/museum-960x.jpg 4x"
       sizes="100vw"
       media="(max-width: 959px)">
-    </picture>
+      <!-- setting the sourcesets for square images -->
       <source srcset="
-      images/museum-920x920.jpg 920w,
-      images/museum-1280x1280.jpg 1280w"
+      images/museum-920x920.jpg 1x,
+      images/museum-1280x1280.jpg 2x
+      images/museum-1600x1600.jpg 3x"
       sizes="50vw"
       media="(min-width: 960px)">
       <img src="images/museum.jpg" alt="museum">
