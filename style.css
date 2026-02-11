@@ -38,6 +38,7 @@ picture img {
   height: auto;
 }
 
+/* media querie to confirm square images shown instead of landscape when screensize is 960px and above */
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
